@@ -1,0 +1,8 @@
+---
+title: "Excel"
+output: html_document
+---
+
+As a Excel ninja, I don't use mouse!
+
+This is how I create a simple excel analysis with pivot table.

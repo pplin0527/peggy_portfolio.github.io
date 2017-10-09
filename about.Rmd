@@ -1,5 +1,5 @@
 ---
-title: "about"
+title: "About"
 ---
 
-this is peggy
+Hello, this is Peggy. I just graduate from UC Davis, master of statistics. I am looking for a JOB!
