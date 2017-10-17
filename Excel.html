@@ -15,27 +15,15 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
-}
-</script>
 
 
 
@@ -161,6 +149,107 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -176,13 +265,19 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="about.html">About</a>
+  <a href="index.html">About Peggy</a>
 </li>
 <li>
   <a href="Excel.html">Excel&amp;VBA</a>
+</li>
+<li>
+  <a href="R_project.html">R</a>
+</li>
+<li>
+  <a href="PY_ML.html">Python: Machine Learning</a>
+</li>
+<li>
+  <a href="Others.html">Other Projects</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -201,11 +296,39 @@ $(document).ready(function () {
 </div>
 
 
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
 <p>As a Excel ninja, I don’t use mouse!</p>
+</div>
+<div id="showcase" class="section level1">
+<h1>Showcase!</h1>
 <p>This is how I create a simple excel analysis with pivot table.</p>
+<p>You can download the material <a href="https://drive.google.com/file/d/0BzyCnilKiD-yb0VBcFJObzJaVzBpWHpfQmpnaExLWV9kY2Nz/view?usp=sharing">here</a></p>
+<div id="task-1-simple-data-manipulation-in-1-min" class="section level3">
+<h3>Task 1: Simple data manipulation in 1 min</h3>
+<p>Here I give a example of how I use hotkeys (ctrl + arrow keys, ctrl + D) ,and VBA to do a simple aggregation.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DLbG4PHtbQI" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<div id="taks2-vlookup-name-manager-in-1-min" class="section level3">
+<h3>Taks2: Vlookup + Name manager in 1 min</h3>
+<p>Here I used name manager (Alt + M + N) in Vlookup and some VBA to manipulate data more efficiently.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ALq9i4xnpZo" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<div id="taks3-pivot-table-and-chart-in-1-min" class="section level3">
+<h3>Taks3: Pivot table and chart in 1 min</h3>
+<p>By using pivot table (Alt + N + V + T ) , and some VBA hotkeys, I did a simple analysis of how much a sales made per month.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tov-cagfA54" frameborder="0" allowfullscreen>
+</iframe>
+<p>If you are interested in how I did this and my VBA, please contact me for more detail <a href="pplin0527@gmail.com">Peggy’s E-mail</a>.</p>
+</div>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 

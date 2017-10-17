@@ -1,5 +1,8 @@
 ---
 title: "About"
+output:
+  html_document:
+    theme: cerulean
 ---
 
-Hello, this is Peggy. I just graduate from UC Davis, master of statistics. I am looking for a JOB!
+Hello, this is Peggy. I just graduated from UC Davis, master of statistics. I am looking for a JOB!

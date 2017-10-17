@@ -2,13 +2,17 @@ name: "my-website"
 navbar:
   title: "My Website"
   left:
-    - text: "Home"
+    - text: "About Peggy"
       href: index.html
-    - text: "About"
-      href: about.html
     - text: "Excel&VBA"
       href: Excel.html
+    - text: "R"
+      href: R_project.html
+    - text: "Python: Machine Learning"
+      href: PY_ML.html
+    - text: "Other Projects"
+      href: Others.html
 output:
   html_document:
-    theme: cosmo
+    theme: cerulean
 output_dir: "."

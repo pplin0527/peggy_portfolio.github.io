@@ -1,9 +1,43 @@
 ---
 title: "Excel"
-output: html_document
+output:
+  html_document:
+    theme: cerulean
+    highlight: haddock
+    toc: true
+    toc_float: 
+      collapsed: false
+
 ---
 # Introduction
 As a Excel ninja, I don't use mouse!
 
 # Showcase!
 This is how I create a simple excel analysis with pivot table.
+
+You can download the material [here](https://drive.google.com/file/d/0BzyCnilKiD-yb0VBcFJObzJaVzBpWHpfQmpnaExLWV9kY2Nz/view?usp=sharing)
+
+### Task 1: Simple data manipulation in 1 min
+
+Here I give a example of how I use hotkeys (ctrl + arrow keys, ctrl + D)  ,and VBA to do a simple aggregation. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DLbG4PHtbQI" frameborder="0" allowfullscreen></iframe>
+
+
+### Taks2: Vlookup + Name manager in 1 min
+
+Here I used name manager (Alt + M + N)  in Vlookup and some VBA to manipulate data more efficiently.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ALq9i4xnpZo" frameborder="0" allowfullscreen></iframe>
+
+
+### Taks3: Pivot table and chart in 1 min
+
+
+By using pivot table (Alt + N + V + T ) , and some VBA hotkeys, I did a simple analysis of how much a sales made per month. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tov-cagfA54" frameborder="0" allowfullscreen></iframe>
+
+
+
+If you are interested in how I did this and my VBA, please contact me for more detail [Peggy's E-mail](pplin0527@gmail.com).

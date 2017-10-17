@@ -1,0 +1,11 @@
+---
+title: "Python"
+output:
+  html_document:
+    theme: cerulean
+    highlight: haddock
+    toc: true
+    toc_float: 
+      collapsed: false
+---
+
