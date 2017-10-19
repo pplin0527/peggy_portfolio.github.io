@@ -75,7 +75,15 @@ bargain_power = mapply(function(x, y){
 
 This is the bargaining power with pure shape file and ggmap package. The full report can be downloaded [here](https://drive.google.com/open?id=0BzyCnilKiD-yTHhvQ2x3VF9TT2M)
 
-
 <img src="BP.gif" alt="Bargaining Power" width="500" height="377">
 
+# Presention
+<img src="Z1.jpg" width="500" height="377">
+<img src="Z2.jpg" width="500" height="377">
+<img src="Z3.jpg" width="500" height="377">
+<img src="Z4.jpg" width="500" height="377">
+<img src="Z5.jpg" width="500" height="377">
+<img src="Z6.jpg" width="500" height="377">
 
+# Credit
+This is a group project, team work with [Chia-Hui Shen](https://www.linkedin.com/in/chia-hui-shen/), special thanks to her. 
