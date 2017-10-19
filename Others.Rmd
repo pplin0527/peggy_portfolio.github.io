@@ -1,5 +1,5 @@
 ---
-title: "Others"
+title: "Other Projects"
 output:
   html_document:
     theme: cerulean
@@ -8,3 +8,15 @@ output:
     toc_float: 
       collapsed: false
 ---
+
+# Recommendation
+### Recommendation System and iBeacon Nevigation
+Match and navigate stores that you interested in with iBeacon Nevigation with android and iphone app.
+
+<img src="Reference 4.jpg" width="100%" height="100%">
+
+
+# Coming Soon
+Coming soon with more projects with APP developments. 
+<img src="coming-soon.jpg" width="100" height="100">
+

@@ -9,3 +9,21 @@ output:
       collapsed: false
 ---
 
+#Coming soon
+Coming soon with Spam/Ham e-mail ML project in Python, with numpy, pandas, sklearn, NLP. 
+<img src="coming-soon.jpg" width="100" height="100">
+
+<img src="Reference 1.png" width="500" height="377">
+
+<img src="Reference 2.png" width="500" height="377">
+
+<img src="Reference 3.png" width="500" height="377">
+
+
+# Report
+1. See the full [Report](https://github.com/jiahtan/208-final-project-kapa/blob/master/report/main.pdf) here.
+
+1. More python codes on  [Github](https://github.com/jiahtan/208-final-project-kapa).
+
+# Credits
+This is a group project, team work with [Chia-Hui Shen](https://www.linkedin.com/in/chia-hui-shen/), [Kavi Tan](https://www.linkedin.com/in/jiahui-kavi-tan-b7828667/) and [Ying-Chen Chou](https://www.linkedin.com/in/lovearleon/). 

@@ -6,9 +6,9 @@ output:
 ---
 Hi, 
 
-This is Peggy. I enjoy exploring insights from data. Recently I graduated from UC Davis, master of Statistics. Looking for a Business analyst/Data Analyst realted job that may apply my programming skills and business experience into influential actions. 
+This is Peggy. I enjoy exploring insights from data. Recently I graduated from UC Davis, master of Statistics. Looking for a Business analyst/Data Analyst related job that may apply my programming skills and business experience into influential actions. 
 
-This is my resume and some fun projects that I did in my work, school and life. 
+Below is my resume and in different web tabs ,you can find some of fun projects that I did in my work, school and life.
 
 
 <img src="Peggy_8_1.jpg" width="100%" height="100%">
