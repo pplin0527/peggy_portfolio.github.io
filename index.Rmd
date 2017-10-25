@@ -4,13 +4,14 @@ output:
   html_document:
     theme: cerulean
 ---
-Hi, 
+Hello, 
 
-This is Peggy. I enjoy exploring insights from data. Recently I graduated from UC Davis, master of Statistics. Looking for a Business analyst/Data Analyst related job that may apply my programming skills and business experience into influential actions. 
+I am Peggy Lin. Welcome to my website. I enjoy anazlying data and deriving insight from real-world data. Recently, I graduated from the master program of Statistics at UC Davis. I am currently looking for a job as Business Analyst or Data Analyst where I can apply my programming skills and business experience to inform corporate decision-making. 
 
-Below is my resume and in different web tabs, you can find some of fun projects that I did in my work, school and life.
 
-1. [Linkedin](https://www.linkedin.com/in/pei-ying-lin/)
-1. Email: PPLIN@UCDAVIS.EDU
+Below is my resume, and in different web tabs, you can find some fun projects that I did in my work, school and leisure time.
+
+
+Please feel free to connect me via [Linkedin](https://www.linkedin.com/in/pei-ying-lin/) or contact me via Email: PPLIN@UCDAVIS.EDU. Thank you for visiting my website!
 
 <img src="Peggy_8_2.jpg" width="100%" height="100%">
